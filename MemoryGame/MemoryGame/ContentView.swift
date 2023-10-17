@@ -39,6 +39,7 @@ struct ContentView: View {
         
         HStack{
             cardAdder
+            Spacer()
             cardRemover
         }
     }
