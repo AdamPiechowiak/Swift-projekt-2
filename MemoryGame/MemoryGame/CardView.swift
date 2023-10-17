@@ -10,6 +10,7 @@ import SwiftUI
 struct CardView: View {
     
     @State var isFaceUp:Bool = true
+    let emoji:String
     
     var body: some View {
         Group{
@@ -20,7 +21,7 @@ struct CardView: View {
                     .frame(width: 100.0, height: 100.0)
                 
                     .overlay(
-                        Text("🎃").font(.largeTitle)
+                        Text(emoji).font(.largeTitle)
                     )
             }
             else
@@ -42,5 +43,5 @@ struct CardView: View {
 }
 
 #Preview {
-    CardView()
+    CardView(emoji: "😡")
 }
