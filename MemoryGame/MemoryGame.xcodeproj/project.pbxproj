@@ -12,6 +12,7 @@
 		3F7E0F9C2ADE75490066CB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E0F9B2ADE75490066CB23 /* Assets.xcassets */; };
 		3F7E0F9F2ADE75490066CB23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E0F9E2ADE75490066CB23 /* Preview Assets.xcassets */; };
 		3F7E0FA62ADE75830066CB23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E0FA52ADE75830066CB23 /* CardView.swift */; };
+		3F7E0FA82ADE840A0066CB23 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E0FA72ADE840A0066CB23 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3F7E0F9B2ADE75490066CB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7E0F9E2ADE75490066CB23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F7E0FA52ADE75830066CB23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3F7E0FA72ADE840A0066CB23 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				3F7E0F972ADE75480066CB23 /* MemoryGameApp.swift */,
 				3F7E0F992ADE75480066CB23 /* ContentView.swift */,
+				3F7E0FA72ADE840A0066CB23 /* ButtonView.swift */,
 				3F7E0FA52ADE75830066CB23 /* CardView.swift */,
 				3F7E0F9B2ADE75490066CB23 /* Assets.xcassets */,
 				3F7E0F9D2ADE75490066CB23 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				3F7E0F9A2ADE75480066CB23 /* ContentView.swift in Sources */,
 				3F7E0FA62ADE75830066CB23 /* CardView.swift in Sources */,
+				3F7E0FA82ADE840A0066CB23 /* ButtonView.swift in Sources */,
 				3F7E0F982ADE75480066CB23 /* MemoryGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
